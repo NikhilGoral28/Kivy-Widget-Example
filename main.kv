@@ -1,0 +1,36 @@
+WidgetsExample:
+
+<WidgetsExample>:
+    cols: 3
+    Button:
+        text: "Click here"
+        on_press: root.on_button_click()
+    Label:
+        text: root.my_text
+
+<StackLayout>:
+    Button:
+        text: "H"
+        size_hint: 0.2, 0.2
+    Button:
+        text: "f"
+        size_hint: 0.2, 0.2
+    Button:
+        text: "j"
+        size_hint: 0.2, 0.2
+        spacing: 30
+
+<GridLayout>:
+
+<BoxLayout>:
+    orientation: "horizontal"
+    Button:
+        text: "B"
+    Button:
+        text: "C"
+
+<MainWidget>:
+    Button:
+        text: "A"
+        size: 100, 50
+        pos: 200, 100
